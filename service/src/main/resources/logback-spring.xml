@@ -10,4 +10,10 @@
     <root level="info">
         <appender-ref ref="Console" />
     </root>
+    <root level="warning">
+        <appender-ref ref="Console" />
+    </root>
+    <root level="error">
+        <appender-ref ref="Console" />
+    </root>
 </configuration>
