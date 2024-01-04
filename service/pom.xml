@@ -161,8 +161,8 @@
                     <execution>
                         <phase>compile</phase>
                         <goals>
-<!--                            <goal>check</goal>-->
-                            <goal>write</goal>
+                            <goal>check</goal>
+<!--                            <goal>write</goal>-->
                         </goals>
                     </execution>
                 </executions>
