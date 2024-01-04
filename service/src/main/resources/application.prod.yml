@@ -1,0 +1,9 @@
+# =================================
+# = Spring
+# =================================
+spring:
+  profiles:
+    active: prod
+  datasource:
+    url: jdbc:mysql://realmeet-db.ckyg3bxuqk4u.sa-east-1.rds.amazonaws.com:3306/bluemeet?serverTimezone=UTC&useSSL=false
+    username: admin
