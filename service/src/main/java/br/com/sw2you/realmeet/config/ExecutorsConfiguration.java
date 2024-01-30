@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ExecutorsConfiguration {
+
     @Bean
     public Executor controllersExecutor(
         @Value("${realmeet.taskExecutor.pool.coreSize:10}") int corePoolSize,
